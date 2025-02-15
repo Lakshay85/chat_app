@@ -8,7 +8,7 @@ const BASEURL =
 export const useAuthStore = create((set, get) => ({
   authUser: null, //This contains the authenticated user’s data.
   isSignUp: false, // This flag indicates if a signup is currently in progress
-  isLogging: false, //This flag indicates if a Login is currently in progress
+  isLoggingIn: false, //This flag indicates if a Login is currently in progress
   isUpdatingProfile: false, //This flag indicates if a profile update is currently in progress.
   isCheckingAuth: true,
   onlineUsers: [],
